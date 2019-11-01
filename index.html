@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Proyecto con JS</title>
+
+        <!-- CSS Styles -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Slider libraries -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <!-- Moment JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/en-ie.js"></script>
+
+        <!-- Local Scripts -->
+        <script type="text/javascript" src="js/main.js"></script>
+      
+    </head>
+    <body>
+        <div id="selector-theme">
+            <div id="to-green"></div>
+            <div id="to-red"></div>
+            <div id="to-blue"></div>
+        </div>
+
+        <section id="global">
+
+            <!-- Header -->
+            <header>
+                <div id="logo">
+                    <h1>Proyecto JS</h1>
+                </div>
+
+                <div class="clear-fix">
+
+                </div>
+
+                <nav id="menu">
+                    <ul>
+                        <li><a href="#">Main</a></li>
+                        <li><a href="#">Clock</a></li>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Slider -->
+            <div id="slider">
+                <div class="bxslider">
+                    <div><img src="img/hojas.jpg" title="Funky roots"></div>
+                    <div><img src="img/rojo.jpg" title="Red"></div>
+                    <div><img src="img/cielo.jpg" title="Sky"></div>
+                </div>
+            </div>
+
+            <!-- Contain -->
+            <section id="content">
+                <div id="post">
+
+                </div>
+
+                <asidebar id="sidebar">
+                    <div id="about">
+                        <h4>Who I'm?</h4>
+                        <img src="img/caracol.jpg">
+                        <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales dictum odio nec tincidunt. Nam lobortis leo eget pharetra fringilla.
+                        </p>
+                    </div>
+
+                    <div id="login">
+                        <h4><span>Login</span></h4>
+
+                        <form>
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" id="form_name">
+
+                            <label for="email" id="form_email">Email</label>
+                            <input type="email" name="email">
+
+                            <label for="password">Password</label>
+                            <input type="password" name="password">
+                            
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                    
+                </asidebar>
+
+                <div class="clear-fix"></div>
+            </section>
+        </section>
+
+        <footer>
+            Antonio Posada &copy;
+            <a href="#" class="up-to-top">Go to Top</a>
+        </footer>
+    </body>
+</html>
