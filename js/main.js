@@ -104,5 +104,9 @@ $(document).ready(function(){
         var form_name = $("#form_name").val();;
         localStorage.setItem("form_name", form_name)
       });
+
+      var form_name = localStorage.getItem("form_name")  
+
+      console.log("First github commit");
       
 })
